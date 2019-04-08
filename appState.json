@@ -1,0 +1,89 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "758067fd-3d74-4eec-b2b8-98db87077660": {
+        "id": "758067fd-3d74-4eec-b2b8-98db87077660",
+        "parent": null,
+        "name": "a111111111111111111111111111111111111111111111111152",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1214bb02-888b-4397-91f9-856d51dea937"
+        ],
+        "isRemovable": false,
+        "filePath": "a111111111111111111111111111111111111111111111111152"
+      },
+      "1214bb02-888b-4397-91f9-856d51dea937": {
+        "id": "1214bb02-888b-4397-91f9-856d51dea937",
+        "parent": "758067fd-3d74-4eec-b2b8-98db87077660",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "a111111111111111111111111111111111111111111111111152/function.js",
+        "code": "exports.handler = function(request, response) {\n    \n    response.send({\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "bd044687-522e-49ad-961e-aaade5404f83": {
+        "id": "bd044687-522e-49ad-961e-aaade5404f83",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js",
+        "code": "// This file is used to register all your cloud functions in GCP.\n// DO NOT EDIT/DELETE THIS, UNLESS YOU KNOW WHAT YOU ARE DOING.\n\nexports.a111111111111111111111111111111111111111111111111152function = require(\"./a111111111111111111111111111111111111111111111111152/function.js\").handler;"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "758067fd-3d74-4eec-b2b8-98db87077660",
+    "openFiles": [
+      "1214bb02-888b-4397-91f9-856d51dea937"
+    ],
+    "currentFileId": "1214bb02-888b-4397-91f9-856d51dea937",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "a111111111111111111111111111111111111111111111111152",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1554706226478
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "a111111111111111111111111111111111111111111111111152",
+      "url": "https://github.com/Kumudikatest/a111111111111111111111111111111111111111111111111152"
+    }
+  }
+}
